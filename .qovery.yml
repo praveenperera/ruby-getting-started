@@ -1,0 +1,15 @@
+---
+application:
+  name: "ruby-getting-started"
+  project: "randopm-project-139"
+  organization: "QoveryCommunity"
+databases:
+- type: "POSTGRESQL"
+  name: "test-qovery-db"
+  version: "12"
+routers:
+- name: "main-ruby-getting-started"
+  routes:
+  - application_name: "ruby-getting-started"
+    paths:
+    - "/*"
